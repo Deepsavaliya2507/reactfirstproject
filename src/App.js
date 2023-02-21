@@ -4,15 +4,15 @@ function App() {
 
   const projectlist = [
     {
-      employee: 'deep savaliya',
+      employee: 'Deep Savaliya',
       job_type: 'full stack developer',
       work: 'Project Management Dashboard',
       complete: 'Done',
-      salary: '50000',
+      salary: '95000',
       joining: '4'
     },
     {
-      employee: 'radhey vaghasiya',
+      employee: 'Radhey Vaghasiya',
       job_type: 'front end developer',
       work: 'Quiz App',
       complete: 'Done',
@@ -20,7 +20,7 @@ function App() {
       joining: '1'
     },
     {
-      employee: 'prabhat bhnderi',
+      employee: 'Prabhat Bhnderi',
       job_type: 'back end developer',
       work: 'Data structures',
       complete: 'Done',
@@ -28,7 +28,7 @@ function App() {
       joining: '3'
     },
     {
-      employee: 'smit patel',
+      employee: 'Smit Patel',
       job_type: 'ui/ux designer',
       work: 'A Restaurant Menu',
       complete: 'In Progress',
@@ -36,12 +36,28 @@ function App() {
       joining: '2'
     },
     {
-      employee: 'meet rakholiya',
+      employee: 'Meet Rakholiya',
       job_type: 'android developer',
       work: 'admin panel',
       complete: 'In Progress',
       salary: '40000',
       joining: '1'
+    },
+    {
+      employee: 'Aenil dhameliya',
+      job_type: 'IOS developer',
+      work: 'IOS Application',
+      complete: 'Done',
+      salary: '43000',
+      joining: '2'
+    },
+    {
+      employee: 'Ishita Naliyadra',
+      job_type: 'backend developer',
+      work: 'backend Application',
+      complete: 'Done',
+      salary: '80000',
+      joining: '2'
     },
   ]
 
