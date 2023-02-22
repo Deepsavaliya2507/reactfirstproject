@@ -55,7 +55,7 @@ function App() {
       employee: 'Ishita Naliyadra',
       job_type: 'backend developer',
       work: 'backend Application',
-      complete: 'Done',
+      complete: 'In Progress',
       salary: '80000',
       joining: '2'
     },
@@ -87,7 +87,7 @@ function App() {
           </thead>
           <tbody>
             {
-              projectlist.filter(j => j.complete == 'Done').map((i, index) => {
+              total.map((i, index) => {
                 return (
                   <tr>
                     <td>{index + 1}</td>
