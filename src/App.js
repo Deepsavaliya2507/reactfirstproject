@@ -63,7 +63,7 @@ function App() {
 
   const total = projectlist.filter(j =>  j.complete == 'Done')
 
-  const tatal = total.reduce((acc, curr) => {
+  const tatal  = total.reduce((acc, curr) => {
     return acc + curr.salary
   }, 0)
 
