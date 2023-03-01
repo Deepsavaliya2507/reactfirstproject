@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
 
-  const projectlist = [
+  const employeelist = [
     {
       employee: 'Deep Savaliya',
       job_type: 'full stack developer',
@@ -61,7 +61,7 @@ function App() {
     },
   ]
 
-  const total = projectlist.filter(j =>  j.complete == 'Done')
+  const total = employeelist.filter(j =>  j.complete == 'Done')
 
   const tatal  = total.reduce((acc, curr) => {
     return acc + curr.salary
